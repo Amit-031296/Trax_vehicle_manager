@@ -14,6 +14,7 @@ urlpatterns = [
     path('logout/',views.logout,name='Logout'),
 
     #url for reset password page
+    
     path('resetpassword/',views.resetpassword,name='Resetpassword'),
     
     #url for vehicle list page
