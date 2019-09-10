@@ -16,7 +16,7 @@ class CustomUser(AbstractUser):
         (System_administrator,'System administrator')
     )
     
-    
+    #Here i defined user role
     user_role = models.PositiveSmallIntegerField(choices=ROLE_CHOICES,default=System_administrator)
 
 
